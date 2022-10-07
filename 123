@@ -1,0 +1,10 @@
+def make_shirt(razmer = 'L', text = 'I love Python'):
+    return(f'У вас футболка с размером {razmer} и текстом {text}')
+print(make_shirt())
+print(make_shirt('XL','123123'))
+
+def function(otdel, spec, group):
+    full_ret = f'{otdel} {spec} {group}'
+    return full_ret.title()
+a = function('qwerty', 'qwerytu', 'dkeo-31')
+print(a)
